@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:text="License Agreement"
+            android:textSize="20dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="326dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="269dp"
+                android:text="By using the Application, you are consenting to our processing of your information as set forth in this Privacy Policy now and as amended by us.
+Processing, means using cookies on a computer/hand held device or using or touching information in any way, including,
+but not limited to, collecting, storing, deleting, using, combining and disclosing information, all of which activities
+will take place in the United States. If you reside outside the United States your information will be transferred, processed and stored there
+under canadian privacy standards. "
+                android:textSize="15dp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Accept" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
